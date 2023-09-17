@@ -68,6 +68,7 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 # I have a question
 #### How to use?
 - Download EFI folder, get [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) and generate your own serial number. [Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#platforminfo).
+- Then put inside your EFI folder
 #### Where your SD Card reader?
 - It's broken before.
 #### I have a problem/error/stuck
@@ -79,4 +80,6 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 - I'm not a hackintosh expert, some problem I can help you but not all.
 #### Can you make X to work?
 - If i find out a way to make it works, I will update on Github.
+### BIOS settings
+🚧 under construction rn 🚧
  
