@@ -60,7 +60,7 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 	- Boot chimes
 ### Not working
 - D-sub port
-- Bluetooth, 
+- Bluetooth
 - AirDrop, Handoff, SideCar (require native supported wi-fi card)
 - Keyboard/trackpad/mouse wake, you have to use power button to wake
 - SmartCard reader
@@ -71,6 +71,8 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 - Then put inside your EFI folder
 #### Where your SD Card reader?
 - It's broken before.
+#### Will you update kexts, OC,etc?
+- Yes I will but occasionally because I think new version are not necessary so just stay in current version.
 #### I have a problem/error/stuck
 - [Google it](https://www.google.com).
 - [Troubleshoot guide](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html)
@@ -79,7 +81,7 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 - [Make your own EFI](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
 - I'm not a hackintosh expert, some problem I can help you but not all.
 #### Can you make X to work?
-- If i find out a way to make it works, I will update on Github.
+- If I find out a way to make it works, I will update on Github.
 ### BIOS settings
 🚧 under construction rn 🚧
  
