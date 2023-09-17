@@ -50,8 +50,8 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
  	- Sleep key
 	- Brightness keys
 	- Backlight
-	- Num pad (hold middle button and use trackpoint to scroll)
-	- Trackpoint
+	- Numpad 
+	- Trackpoint (hold middle button and use trackpoint to scroll)
 - OS features
 	- iMessage, FaceTime, App Store, iTunes Store
 	- AirPlay (audio, videos, screen extend/mirror)
