@@ -1,4 +1,3 @@
-![image](https://github.com/Trkien618/Dell_Latitude_E5470_Hackintosh/assets/72366881/3df8a7bb-afc5-4583-bf62-bcc46979feb8)# Dell Latitude E5470 Hackintosh
 My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may work for Big Sur and previous versions (I haven't try yet)
 ### Specs:
 - Intel i5-6300U Sky Lake 6th gen
