@@ -1,4 +1,4 @@
-# Dell Latitude E5470 Hackintosh
+![image](https://github.com/Trkien618/Dell_Latitude_E5470_Hackintosh/assets/72366881/3df8a7bb-afc5-4583-bf62-bcc46979feb8)# Dell Latitude E5470 Hackintosh
 My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may work for Big Sur and previous versions (I haven't try yet)
 ### Specs:
 - Intel i5-6300U Sky Lake 6th gen
@@ -64,13 +64,17 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 - AirDrop, Handoff, SideCar (require native supported wi-fi card)
 - Keyboard/trackpad/mouse wake, you have to use power button to wake
 - SmartCard reader
+- No OC theme included because I think it slow down boot process
 - Some function keys
 # I have a question
 #### How to use?
+- Create MacOS installer 
 - Download EFI folder, get [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) and generate your own serial number. [Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#platforminfo).
 - Then put inside your EFI folder
+- Restart and boot into your USB drive and hope it shows the Mac recovery screen
+- Install and enjoy
 #### Where your SD Card reader?
-- It's broken before.
+- It's broken before so i don't need it to work on Mac
 #### Will you update kexts, OC,etc?
 - Yes I will but occasionally because I think new version are not necessary so just stay in current version.
 #### I have a problem/error/stuck
@@ -83,5 +87,14 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 #### Can you make X to work?
 - If I find out a way to make it works, I will update on Github.
 ### BIOS settings
-🚧 under construction rn 🚧
- 
+Press F2 to boot to BIOS, press F12 or Delete for boot menu
+- Setting
+	- System Configurations
+		- Parallel Port: Disabled
+		- Sata Operation: AHCI
+		- USB Configuration: ☑️ Enable USB boot support
+	- Security
+		- TPM Security: ❌ TPM on
+		- CPU XD Support: ☑️ CPU XD support
+		- Intel SGX Enable: Disabled
+  🚧 under construction rn 🚧
