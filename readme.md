@@ -84,7 +84,7 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 - [Make your own EFI](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
 - I'm not a hackintosh expert, some problem I can help you but not all.
 #### Can you make X to work?
-- If I find out a way to make it works, I will update on Github.
+- If I find out a way to make it works, I will update it.
 ### BIOS settings
 Press F2 to boot to BIOS, press F12 or Delete for boot menu
 - Setting
