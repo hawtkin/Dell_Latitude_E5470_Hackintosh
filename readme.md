@@ -96,4 +96,4 @@ Press F2 to boot to BIOS, press F12 or Delete for boot menu
 		- TPM Security: ❌ TPM on
 		- CPU XD Support: ☑️ CPU XD support
 		- Intel SGX Enable: Disabled
-  🚧 under construction rn 🚧
+-  🚧 still writing 🚧
