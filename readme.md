@@ -86,14 +86,19 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 #### Can you make X to work?
 - If I find out a way to make it works, I will update it.
 ### BIOS settings
-Press F2 to boot to BIOS, press F12 or Delete for boot menu
+* Press F2 to boot to BIOS, press F12 or Delete for boot menu
+* `Restore Settings` then:
 - Setting
 	- System Configurations
 		- Parallel Port: Disabled
 		- Sata Operation: AHCI
-		- USB Configuration: ☑️ Enable USB boot support
+		- USB Configuration: Enable "Enable USB boot support"
 	- Security
-		- TPM Security: ❌ TPM on
-		- CPU XD Support: ☑️ CPU XD support
+		- TPM Security: Disable 
+		- CPU XD Support: Enable
 		- Intel SGX Enable: Disabled
--  🚧 still writing 🚧
+	- POST Behavior
+		- Fastboot: Thorough
+	- Virtualization Support
+		- Virtualization: Enable
+		- VT for Direct I/O/: Disable
