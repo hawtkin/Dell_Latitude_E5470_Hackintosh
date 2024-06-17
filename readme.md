@@ -18,7 +18,9 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 - External connection
 	- USB ports
 	- Ethernet
-	- Wi-fi
+	- Wi-fi (2.4GHz and 5GHz)
+   
+    ![Screenshot 2024-06-17 at 3 13 55 PM](https://github.com/Trkien618/Dell_Latitude_E5470_Hackintosh/assets/72366881/1d9e986b-7ad1-4e6a-8573-af3819f66d03)
 	- HDMI
 	- Camera (Photo Booth, FaceTime, Zoom)
 - Power
@@ -35,10 +37,15 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 	- Power Management
 	- Temperature sensor
 	- Fan sensor and control
+   
+![Screenshot 2024-06-17 at 2 42 09 PM](https://github.com/Trkien618/Dell_Latitude_E5470_Hackintosh/assets/72366881/8949d70e-9070-4b22-879b-8934978d2e92)
+
+Screenshot from MacOS System Monitor software [Stats](https://github.com/exelban/stats)
+
 - Audio
 	- Built-in speaker
 	- Built-in microphone
-	- Headphones jack (mic broken)
+	- Headphones jack auto detect when plug in (mic broken)
 - Touchpad
 	- Three fingers gestures (four fingers may not work well)
 	- BetterTouchTool
@@ -52,10 +59,11 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 	- Numpad 
 	- Trackpoint (hold middle button and use trackpoint to scroll)
 - OS features
-	- iMessage, FaceTime, App Store, iTunes Store
+	- iMessage and FaceTime *may* work
+	- App Store works
 	- AirPlay (audio, videos, screen extend/mirror)
 - Other
-	- CFG Lock can be unlock, [read this](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#disabling-cfg-lock)
+	- CFG Lock can be unlocked, [read this](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#disabling-cfg-lock)
 	- Boot chimes
 ### Not working
 - D-sub port
@@ -67,22 +75,24 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 - Some function keys
 # I have a question
 #### How to use?
-- Create MacOS installer 
+- [Create MacOS installer](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
 - Download EFI folder, get [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) and generate your own serial number. [Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#platforminfo).
 - Then put inside your EFI folder
 - Restart and boot into your USB drive and hope it shows the Mac recovery screen
-- Install and enjoy
-#### Where your SD Card reader?
-- It's broken before so i don't need it to work on Mac
+- [Install](https://support.apple.com/en-us/102655#reinstall) and enjoy
+#### How about SD Card reader?
+- It's broken on my laptop so i don't need it to work on Mac
 #### Will you update kexts, OC,etc?
 - Yes I will but occasionally because I think new version are not necessary so just stay in current version.
-#### I have a problem/error/stuck
+  
+  <sub> [if the code works, don't touch it!] </sub>
+#### I have a question/problem/error/stuck
 - [Google it](https://www.google.com).
 - [Troubleshoot guide](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html)
 - [r/Hackintosh](https://www.reddit.com/r/hackintosh/)
 - [r/Hackintosh Discord](https://discord.gg/u8V7N5C)
 - [Make your own EFI](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
-- I'm not a hackintosh expert, some problem I can help you but not all.
+- You can ask me, I'm not a hackintosh expert, some problem I can help you but not all.
 #### Can you make X to work?
 - If I find out a way to make it works, I will update it.
 ### BIOS settings
@@ -101,4 +111,8 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 		- Fastboot: Thorough
 	- Virtualization Support
 		- Virtualization: Enable
-		- VT for Direct I/O/: Disable
+		- VT for Direct I/O: Disable
+    _____________________________________________
+![womm](https://github.com/Trkien618/Dell_Latitude_E5470_Hackintosh/assets/72366881/f6b20e37-d3f9-4a42-ba8b-62a016ddf222)
+
+This EFI may works on other machines or other brands with similar specs, just try it.
