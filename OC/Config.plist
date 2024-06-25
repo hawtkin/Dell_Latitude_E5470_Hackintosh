@@ -1250,9 +1250,9 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleXcpmCfgLock</key>
-			<false/>
-			<key>AppleCpuPmCfgLock</key>
 			<true/>
+			<key>AppleCpuPmCfgLock</key>
+			<false/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
