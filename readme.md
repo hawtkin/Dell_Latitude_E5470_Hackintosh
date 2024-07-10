@@ -8,6 +8,7 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 - Wi-fi card: Intel Wireless-AC 7265
 - SSD: SK Hynix SC311 128GB
 - PS/2 keyboard and Alps touchpad
+
 ### Working
 - Graphics
 	- iGPU
@@ -23,17 +24,16 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
     ![Screenshot 2024-06-17 at 3 13 55 PM](https://github.com/Trkien618/Dell_Latitude_E5470_Hackintosh/assets/72366881/1d9e986b-7ad1-4e6a-8573-af3819f66d03)
 	- HDMI
 	- Camera (Photo Booth, FaceTime, Zoom)
-	- AirPlay to TV
-  
+
  	- Bluetooth
   
 ![Screenshot 2024-07-10 at 10 49 03 PM](https://github.com/hawtkin/Dell_Latitude_E5470_Hackintosh/assets/72366881/1de07a98-8244-43ca-9709-d38c55fe3196)
 ![Screenshot 2024-07-10 at 10 53 08 PM](https://github.com/hawtkin/Dell_Latitude_E5470_Hackintosh/assets/72366881/a9642e96-5f5d-425c-855a-fc44e2a97b1d)
 
 
-
+![Screenshot 2024-07-10 at 10 53 00 PM](https://github.com/hawtkin/Dell_Latitude_E5470_Hackintosh/assets/72366881/b79054be-2c80-4b00-a040-73e418ee09eb)
 ![Screenshot 2024-07-10 at 10 50 46 PM](https://github.com/hawtkin/Dell_Latitude_E5470_Hackintosh/assets/72366881/c9856d93-915c-4d76-b6a4-56bb356248f8)
-![Screenshot 2024-07-10 at 10 53 00 PM](https://github.com/hawtkin/Dell_Latitude_E5470_Hackintosh/assets/72366881/002822d0-17ae-445b-a1ab-b760d3755cc0)
+
 
 - Power
 	- Sleep and wake
@@ -82,7 +82,7 @@ Screenshot from MacOS System Monitor software [Stats](https://github.com/exelban
 - AirDrop, Handoff, SideCar (require native supported wi-fi card)
 - Keyboard/trackpad/mouse wake, you have to use power button to wake
 - SmartCard reader
-- No OC theme included because I think it slow down boot process
+- No OC theme included because I think it slows down boot process
 - Some function keys
 # I have a question
 #### How to use?
@@ -123,7 +123,20 @@ Screenshot from MacOS System Monitor software [Stats](https://github.com/exelban
 	- Virtualization Support
 		- Virtualization: Enable
 		- VT for Direct I/O: Disable
-    _____________________________________________
+
+----------------------------------------------------------------------------
 ![womm](https://github.com/Trkien618/Dell_Latitude_E5470_Hackintosh/assets/72366881/f6b20e37-d3f9-4a42-ba8b-62a016ddf222)
 
 This EFI may works on other machines or other brands with similar specs, just try it.
+
+----------------------------------------------------------------------------
+### Credit
+[dortania](https://github.com/dortania) for SSDTs, install guide
+
+[OpenIntelWireless](https://github.com/OpenIntelWireless) for Wi-Fi and Bluetooth kexts
+
+[acidanthera](https://github.com/acidanthera) for SMC, trackpad/keyboard, graphics, audio, bluetooth kexts
+
+[USBToolBox](https://github.com/USBToolBox) for easy USB mapping
+
+[shMatrix](https://github.com/shMatrix) for helped me mapping USB 3.0
