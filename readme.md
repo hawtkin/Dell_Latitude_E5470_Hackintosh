@@ -23,6 +23,18 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
     ![Screenshot 2024-06-17 at 3 13 55 PM](https://github.com/Trkien618/Dell_Latitude_E5470_Hackintosh/assets/72366881/1d9e986b-7ad1-4e6a-8573-af3819f66d03)
 	- HDMI
 	- Camera (Photo Booth, FaceTime, Zoom)
+	- AirPlay to TV
+  
+ 	- Bluetooth
+  
+![Screenshot 2024-07-10 at 10 49 03 PM](https://github.com/hawtkin/Dell_Latitude_E5470_Hackintosh/assets/72366881/1de07a98-8244-43ca-9709-d38c55fe3196)
+![Screenshot 2024-07-10 at 10 53 08 PM](https://github.com/hawtkin/Dell_Latitude_E5470_Hackintosh/assets/72366881/a9642e96-5f5d-425c-855a-fc44e2a97b1d)
+
+
+
+![Screenshot 2024-07-10 at 10 50 46 PM](https://github.com/hawtkin/Dell_Latitude_E5470_Hackintosh/assets/72366881/c9856d93-915c-4d76-b6a4-56bb356248f8)
+![Screenshot 2024-07-10 at 10 53 00 PM](https://github.com/hawtkin/Dell_Latitude_E5470_Hackintosh/assets/72366881/002822d0-17ae-445b-a1ab-b760d3755cc0)
+
 - Power
 	- Sleep and wake
 	- Sleep by close lid
@@ -67,7 +79,6 @@ Screenshot from MacOS System Monitor software [Stats](https://github.com/exelban
 	- Boot chimes
 ### Not working
 - D-sub port
-- Bluetooth
 - AirDrop, Handoff, SideCar (require native supported wi-fi card)
 - Keyboard/trackpad/mouse wake, you have to use power button to wake
 - SmartCard reader
