@@ -8,7 +8,6 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
 - Wi-fi card: Intel Wireless-AC 7265
 - SSD: SK Hynix SC311 128GB
 - PS/2 keyboard and Alps touchpad
-
 ### Working
 - Graphics
 	- iGPU
@@ -24,7 +23,7 @@ My hackintosh works on an old laptop, curently running MacOS 12 Monterey, it may
     ![Screenshot 2024-06-17 at 3 13 55 PM](https://github.com/Trkien618/Dell_Latitude_E5470_Hackintosh/assets/72366881/1d9e986b-7ad1-4e6a-8573-af3819f66d03)
 	- HDMI
 	- Camera (Photo Booth, FaceTime, Zoom)
-
+   
  	- Bluetooth
   
 ![Screenshot 2024-07-10 at 10 49 03 PM](https://github.com/hawtkin/Dell_Latitude_E5470_Hackintosh/assets/72366881/1de07a98-8244-43ca-9709-d38c55fe3196)
@@ -57,9 +56,9 @@ Screenshot from MacOS System Monitor software [Stats](https://github.com/exelban
 - Audio
 	- Built-in speaker
 	- Built-in microphone
-	- Headphones jack auto detect when plug in (mic broken)
+	- Headphones jack with auto-detection when plugged in (external mic doesn't work)
 - Touchpad
-	- Three fingers gestures (four fingers may not work well)
+	- Three fingers gestures (four-fingers gestures are faulty)
 	- BetterTouchTool
 	- Left and right buttons
 	- Two fingers scroll
@@ -95,7 +94,7 @@ Screenshot from MacOS System Monitor software [Stats](https://github.com/exelban
 - It's broken on my laptop so i don't need it to work on Mac
 #### Will you update kexts, OC,etc?
 - Yes I will but occasionally because I think new version are not necessary so just stay in current version.
-  
+
   <sub> [if the code works, don't touch it!] </sub>
 #### I have a question/problem/error/stuck
 - [Google it](https://www.google.com).
